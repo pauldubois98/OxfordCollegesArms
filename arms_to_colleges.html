@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <title>Arms to Colleges</title>
+  <meta name="description" content="Arms to Colleges">
+  <meta name="keywords" content="Oxford,Colleges,Arms,Game">
+  <meta name="author" content="Paul Dubois">
+  <link rel="icon" type="image/png" href="oxford-icon.png" />
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+  <a href="index.html" id="back">☰</a>
+
+  <header>
+      <h1>Arms to Colleges</h1>
+  </header>
+
+  <img id="arm" class="arm">
+  <ul id="colleges" class="cards">
+    <li class="college">All Souls</li>
+    <li class="college">Balliol</li>
+    <li class="college">Blackfriars Hall</li>
+    <li class="college">Brasenose</li>
+    <li class="college">Campion Hall</li>
+    <li class="college">Christ Church</li>
+    <li class="college">Corpus Christi</li>
+    <li class="college">Exeter</li>
+    <li class="college">Green Templeton</li>
+    <li class="college">Harris Manchester</li>
+    <li class="college">Hertford</li>
+    <li class="college">Jesus</li>
+    <li class="college">Keble</li>
+    <li class="college">Kellogg</li>
+    <li class="college">LadyMargaretHall</li>
+    <li class="college">Linacre</li>
+    <li class="college">Lincoln</li>
+    <li class="college">Magdalen</li>
+    <li class="college">Mansfield</li>
+    <li class="college">Merton</li>
+    <li class="college">New College</li>
+    <li class="college">Nuffield</li>
+    <li class="college">Oriel</li>
+    <li class="college">Pembroke</li>
+    <li class="college">Queen's</li>
+    <li class="college">Regent's Park</li>
+    <li class="college">Reuben</li>
+    <li class="college">Somerville</li>
+    <li class="college">St. Anne's</li>
+    <li class="college">St. Antony's</li>
+    <li class="college">St. Benet's Hall</li>
+    <li class="college">St. Catherine's</li>
+    <li class="college">St. Cross</li>
+    <li class="college">St. Edmund Hall</li>
+    <li class="college">St. Hilda's</li>
+    <li class="college">St. Hugh's</li>
+    <li class="college">St. John's</li>
+    <li class="college">St. Peter's</li>
+    <li class="college">St. Stephen's House</li>
+    <li class="college">Trinity</li>
+    <li class="college">University</li>
+    <li class="college">Wadham</li>
+    <li class="college">Wolfson</li>
+    <li class="college">Worcester</li>
+    <li class="college">Wycliffe Hall</li>
+  </ul>
+
+  <p id="give_up" class="btn">Give up this one</p>
+
+  <div id="results">
+    <h2>Results</h2>
+    <p id="results_total">Total Colleges Arms: 47</p>
+    <p id="results_wrong">Wrong Tries: 0</p>
+    <p id="results_given_up">Given Up: 0</p>
+    <p id="results_time">Time: 0s</p>
+    <div style="display: flex; margin-top: 0.8em;">
+      <p id="play_again" class="btn small light" onclick="playAgain();">Play Again</p>
+      <p id="back_to_menu" class="btn small dark" onclick="backToMenu();">Back To Menu</p>
+    </div>
+  </div>
+
+</body>
+
+</html>
+<script src="arms_to_colleges.js"></script>
